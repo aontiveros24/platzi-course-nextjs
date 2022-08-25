@@ -14,7 +14,7 @@ const Login = () => {
       usename: formData.get('email'),
       password: formData.get('password'),
     };
-    {% comment %} console.log(data); {% endcomment %}
+    console.log(data);
   };
 
   return (
